@@ -1,0 +1,37 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Testing and linting
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/*
+!logs/.gitkeep
+
+# Local data
+data/*
+!data/*.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# IDE
+.vscode/
